@@ -1,5 +1,9 @@
 # Reasymotion
+
 Reasymotion is an implementation of some basic easymotion-like functionality for Kakoune.
+
+**NOTE:** Fork with simple addition of "press letter" info boxes on reasymotion command
+actions.
 
 # Install
 ```

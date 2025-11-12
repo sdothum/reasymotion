@@ -100,24 +100,28 @@ def reasymotion-word-expand %{
 }
 
 def reasymotion-on-letter-to-word %{
+    info -title 'Jump to Word' -- '  Press letter  '
     on-key %{
         reasymotion-select-screen "s\b%val{key}\w*<ret>"
     }
 }
 
 def reasymotion-on-letter-to-word-expand %{
+    info -title 'Expand to word' -- '  Press letter  '
     on-key %{
         reasymotion-select-screen-expand "s\b%val{key}\w*<ret>"
     }
 }
 
 def reasymotion-on-letter-to-letter %{
+    info -title 'Jump to letter' -- '  Press letter  '
     on-key %{
         reasymotion-select-screen "s%val{key}<ret>"
     }
 }
 
 def reasymotion-on-letter-to-letter-expand %{
+    info -title 'Expand to letter' -- '   Press letter   '
     on-key %{
         reasymotion-select-screen-expand "s%val{key}<ret>"
     }
